@@ -208,7 +208,48 @@
         <!-- Contact -->
         <section class="p-6 my-12 scroll-mt-16" id="contact">
             <h2 class="font-bold sm:text-5xl text-center dark:text-white text-slate-900 text-4xl mb-6">Contact us</h2>
-            
+            <form class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-start gap-4">
+                <label for="name">Name</label>
+                <input type="text" id="name" 
+                class="w-full 
+                text-black 
+                text-2xl 
+                sm:text-3xl 
+                p-3 
+                rounded-xl 
+                border 
+                border-solid 
+                border-slate-500 
+                dark:border-none" 
+                required placeholder="your name"
+                >
+                <label for="email">Email</label>
+                <input type="email" id="email" 
+                class="w-full 
+                text-black 
+                text-2xl 
+                sm:text-3xl 
+                p-3 
+                rounded-xl 
+                border 
+                border-solid 
+                border-slate-500 
+                dark:border-none" 
+                required placeholder="your email"
+                >
+                <label for="message">Message</label>
+                <textarea name="message" class="w-full 
+                text-black 
+                text-2xl 
+                sm:text-3xl 
+                p-3 
+                rounded-xl 
+                border 
+                border-solid 
+                border-slate-500 
+                dark:border-none" id="message" cols="30" rows="10" placeholder="your message"></textarea>
+                <button class="bg-blue-700 hover:bg-blue-600 active:bg-blue-800 p-3 w-48 rounded-xl border border-slate-900 dark:border-none">Submit</button>
+            </form>
         </section>
     </main>
 </body>
